@@ -73,17 +73,14 @@ In modern Agile/DevOps, this flow is **iterative, automated, and feedback-driven
      * **Non-functional requirements:** how the system should behave (e.g., 99.9% availability, RPO = 15 min, response time <200 ms, GDPR compliance).
      * **Security & compliance needs:** capture standards upfront (PCI DSS, GDPR, ISO 27001, RBI/MAS guidelines) so architecture choices align with regulations.
      * **Environments & workflow expectations:** define that there will be dev, staging, and production environments, and that teams will follow a branching strategy in source control (the *specific approach* is designed in the next phase).
-     * - PCI DSS (Payment Card Industry Data Security Standard) - Security standard for handling cardholder data (credit/debit
+- PCI DSS (Payment Card Industry Data Security Standard) - Security standard for handling cardholder data (credit/debit
 cards).
-• GDPR (General Data Protection Regulation) - EU law that governs how personal data is collected, processed, and storec
+- GDPR (General Data Protection Regulation) - EU law that governs how personal data is collected, processed, and stored.
 - ISO 27001 (International Organization for Standardization 27001) - Global standard for information security
-management systems (ISMS). |
-Maintain
-(Continuous)
+management systems (ISMS).
 - SOC 2 (System and Organization Controls 2) - US framework for managing customer data across five trust principles
-(security, availability, processing integrity, confidentiality, privacy). ressive delivery stretegies
-• Performance & load tests
-- HIPAA (Health Insurance Portability and Accountability Act) - US law for safeguarding sensitive healthcare data (PHI)sett
+(security, availability, processing integrity, confidentiality, privacy)
+- HIPAA (Health Insurance Portability and Accountability Act) - US law for safeguarding sensitive healthcare data (PHI)
 -RBI Guidelines (Reserve Bank of India Guidelines) - India-specific compliance rules for banks and financial institutions.
 
    Capturing these upfront avoids rework and ensures DevOps/SRE can plan for **reliability, compliance, and scalability** from day one.
